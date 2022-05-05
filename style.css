@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 24px;
+    color: rgb(52, 107, 154);
+}
+
+h4{
+    font-size: 24px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+}
+
+header nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav div h3{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 12px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    list-style: none;
+    color: aliceblue;
+}
+
+.main-menu li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu-member{
+    display: flex;
+    list-style: none;
+}
+
+.menu-member li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.index-intro{
+    background-color: aqua;
+    height: 40vh;
+}
+
+.index-intro-c1{
+    display: flex;
+}
+
+.index-intro-c1 p{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.index-intro-c2{
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.index-intro-c2 a{
+    text-decoration: none;
+    background-color: rgb(87, 87, 163);
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.index-login{
+    background-color: aquamarine;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-login-signup{
+    border: 12px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.index-login-signup form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.index-login-signup form input{
+    margin-bottom: 2px;
+}
+.index-login-signup form button{
+    background-color: blue;
+    width: 120px;
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.index-login-login{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.index-login-login form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.index-login-login form input{
+    margin-bottom: 5px;
+}
